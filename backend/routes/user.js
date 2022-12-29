@@ -52,7 +52,7 @@ res.status(200).json({ user: myuser });
         console.log(error);}
         
 });
-router.post("/signin", async (req, res) => {
+router.post("/login", async (req, res) => {
     try {
        
     // save & return response

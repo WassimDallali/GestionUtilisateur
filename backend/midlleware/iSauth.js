@@ -24,4 +24,4 @@ const protect = async (req, res, next) => {
     throw new Error("Not authorized , no token found");
   }
 }
-module.exports = protect;
+module.exports =  protect ;
